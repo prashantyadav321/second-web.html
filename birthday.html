@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    .birthday-box {
+      text-align: center;
+      padding: 40px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff4081;
+      animation: bounce 1s infinite;
+    }
+
+    p {
+      font-size: 1.5em;
+      color: #333;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .balloons {
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="birthday-box">
+    <div class="balloons">🎈🎉🎁🎊🎂</div>
+    <h1>Happy Birthday!</h1>
+    <p>Wishing you a day full of joy and surprises!</p>
+    <div class="balloons">🎂🎊🎁🎉🎈</div>
+  </div>
+</body>
+</html>
